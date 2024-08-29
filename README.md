@@ -189,7 +189,7 @@ I'm a Full-stack Developer with a strong focus on backend development and cybers
 
 ### 📚 Education
 **B.Sc. in Computer Science**  
-2020-2023 | UNIP
+2019-2023 | UNIP
 
 ---
 

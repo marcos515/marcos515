@@ -26,11 +26,11 @@ domains. Each module owns its API (.NET 10 + EF Core + PostgreSQL, schema per se
 aggregator that composes reads and delegates writes, and a React frontend. Transactional outbox on
 RabbitMQ with DLX/DLQ and `messageId` deduplication; anticorruption layer over the read-only legacy.
 
-**Acqua Smart** · *own product* · Flutter · ESP32 · AWS IoT
-Smart RGB pool lighting, published on Android. A single Flutter app discovers the lamp over
-Bluetooth, provisions its network credentials and moves control to the cloud — switching between
-local BLE and remote MQTT without losing scenes, schedules or devices. Firmware, protocol, app and
-serverless backend are all mine.
+**Smart pool lighting** · *client project* · Flutter · ESP32 · AWS IoT
+RGB lamp control system shipped on Android. A single Flutter app discovers the lamp over Bluetooth,
+provisions its network credentials and moves control to the cloud — switching between local BLE and
+remote MQTT without losing scenes, schedules or devices. I built the whole chain: firmware,
+communication protocol, mobile app and serverless backend.
 
 **ForensiaHub** · *own product* · React · AWS
 SaaS marketplace connecting law firms and companies to forensic experts and investigators. Built

@@ -12,7 +12,8 @@ design, messaging contracts, data migration with reconciliation, and Kubernetes 
 
 What makes my range unusual is that I've built complete product chains alone — embedded firmware,
 mobile app and cloud backend. That's what lets me make architecture calls without depending on
-someone else to explain any layer of the stack.
+someone else to explain any layer of the stack. Alongside that, I take on freelance client work
+through my own company, delivering entire products end to end by myself.
 
 📄 **Full résumé:** [marcos515.github.io](https://marcos515.github.io/)
 
@@ -26,15 +27,15 @@ domains. Each module owns its API (.NET 10 + EF Core + PostgreSQL, schema per se
 aggregator that composes reads and delegates writes, and a React frontend. Transactional outbox on
 RabbitMQ with DLX/DLQ and `messageId` deduplication; anticorruption layer over the read-only legacy.
 
-**Smart pool lighting** · *client project* · Flutter · ESP32 · AWS IoT
+**Smart pool lighting** · *freelance client project* · Flutter · ESP32 · AWS IoT
 RGB lamp control system shipped on Android. A single Flutter app discovers the lamp over Bluetooth,
 provisions its network credentials and moves control to the cloud — switching between local BLE and
 remote MQTT without losing scenes, schedules or devices. I built the whole chain: firmware,
 communication protocol, mobile app and serverless backend.
 
-**ForensiaHub** · *own product* · React · AWS
-SaaS marketplace connecting law firms and companies to forensic experts and investigators. Built
-end to end: business and contract modeling, serverless AWS architecture, React frontend and
+**Forensic services marketplace** · *freelance client project* · React · AWS
+SaaS platform connecting law firms and companies to forensic experts and investigators. Delivered
+end to end and solo: business and contract modeling, serverless AWS architecture, React frontend and
 infrastructure as code — with managed auth, queue-based processing, reputation ranking and payments.
 
 **Predictive maintenance for industrial assets** · *Açovisa* · ESP32 · AWS IoT · Grafana
